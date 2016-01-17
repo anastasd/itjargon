@@ -18,6 +18,10 @@
 				<abbr_k>гл.</abbr_k>
 				<abbr_v>глагол</abbr_v>
 			</abbr_def>
+			<abbr_def>
+				<abbr_k>нар.</abbr_k>
+				<abbr_v>наречие</abbr_v>
+			</abbr_def>
 		</abbreviations>
 		<file_ver>001</file_ver>
 		<creation_date>16-01-2016</creation_date>
@@ -25,6 +29,8 @@
 	<lexicon>
 		<ar f="l">
 			<k>ПеЦе</k>
+			<k>комп</k>
+			<k>писи</k>
 			<def>
 				<gr>
 					<abbr>същ.</abbr>
@@ -74,7 +80,7 @@
 				<gr>
 					<abbr>същ.</abbr>
 				</gr>
-				<deftext>Персонала на IT фирмата</deftext>
+				<deftext>Персонал на IT фирмат</deftext>
 			</def>
 		</ar>
 		<ar f="l">
@@ -97,15 +103,17 @@
 		</ar>
 		<ar f="l">
 			<k>коментирам</k>
+			<k>коментвам</k>
 			<def>
 				<gr>
 					<abbr>гл.</abbr>
 				</gr>
-				<deftext>Правя неактивен част от програмния код, като го ограждам с тагове коментар</deftext>
+				<deftext>Правя неактивен част от програмния код, като го ограждам с тагове за коментар</deftext>
 			</def>
 		</ar>
 		<ar f="l">
 			<k>разкоментирам</k>
+			<k>разкоментвам</k>
 			<def>
 				<gr>
 					<abbr>гл.</abbr>
@@ -115,6 +123,8 @@
 		</ar>
 		<ar f="l">
 			<k>сорскод</k>
+			<k>сорс код</k>
+			<k>сорс-код</k>
 			<k>сорс</k>
 			<k>кодец</k>
 			<def>
@@ -161,6 +171,446 @@
 			</def>
 		</ar>
 		<ar f="l">
+			<k>джавар</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Програмист, който използва предимно програмният език Java</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>икспандвам</k>
+			<k>експандвам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Разширявам (от английски "expand")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>портвам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Правя възможно за ползване от нещо (от английски "port")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>рутирам</k>
+			<k>руутвам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Препращам (от английски "route")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>комбо</k>
+			<k>комбобокс</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Падащо меню (от английски "combobox")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>пропърти</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Свойство (от английски "property")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>уебаджия</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Програмист, който се занимава предимно с правене на уеб сайтове и уеб прилогения</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>дотнетаджия</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Програмист, който използва предимно програмните езици, включени в Microsoft Visual Studio</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>аутпут</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Текст или символи, които са резултат от изпълнинето на софтуерна програма (от английски "output")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>билд</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Компилиран програмен код (от английски "build")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>джамци</k>
+			<k><![CDATA[M$]]></k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Microsoft Corporation</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>джамски</k>
+			<def>
+				<gr>
+					<abbr>прил.</abbr>
+				</gr>
+				<deftext>на Microsoft Corporation</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>джаварник</k>
+			<k>жаварник</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Отдел в IT фирма, където се използва основно програмният език Java</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>съпорт</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>поддръжка (от английски "support")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>ОС</k>
+			<k>ос</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Операционна система</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>кюъри</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Заявка (от английски "query")</deftext>
+				<deftext>Заявка към релационна база данни</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>индексирам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Добаям индекси към таблица в база с данни или към масив</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>крон работник</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Служител с регулярно работно време (от английски "crontab")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>слуша</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Приема заявки. Използва се за сървърен софтуер (от английски "listen")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>мусцл</k>
+			<k>делфин</k>
+			<k>делфинче</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>MySQL Database Server</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>парсвам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Разчитам. Превръщам в друг формат</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>рейзвам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Извиквам. Използва се за иницииране на грешка или програмно изключение (от английски "raise")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>ирейзвам</k>
+			<k>дилийтвам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Изтривам (от английски "erase", "delete")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>циклене</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Изпълнение на програмен цикъл</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>БД</k>
+			<k>ДБ</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>База с данни</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>инклудвам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Вмъквам (от английски "include")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>ризолва</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Открива. Използва се за DNS сървър или domain name (от английски "resolve")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>скейлвам</k>
+			<k>скалирам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Уголемявам. Развивам. (от английски "scale")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>ябълки(те)</k>
+			<k>ябълка(та)</k>
+			<k>епълджийница</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Американската софтуерна компания Apple Inc.</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>ябълско</k>
+			<def>
+				<gr>
+					<abbr>прил.</abbr>
+				</gr>
+				<deftext>Произведено от американската софтуерна компания Apple Inc.</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>рам</k>
+			<k>РАМ</k>
+			<k>памет</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Random-access memory (RAM)</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>айфон</k>
+			<k>ифон</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>iPhone</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>оффлайн</k>
+			<k>офлайн</k>
+			<def>
+				<gr>
+					<abbr>прил.</abbr>
+				</gr>
+				<deftext>Софтуерно приложение, което работи без интернет достъп</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>оффлайн</k>
+			<k>офлайн</k>
+			<def>
+				<gr>
+					<abbr>нар.</abbr>
+				</gr>
+				<deftext>Без интернет достъп</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>софтуер</k>
+			<k>софт</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Програмен продукт</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>облак</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Сървър за изчисления в облак</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>флаш</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Adobe Flash</deftext>
+				<deftext>Adobe Flash Player</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>цъмес</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Система за управление на съдържание (Content Management System - CMS)</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>едитвам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Редактирам (от английското "edit")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>римуут</k>
+			<k>римут</k>
+			<def>
+				<gr>
+					<abbr>нар.</abbr>
+				</gr>
+				<deftext>С отдалечен достъп (от английското "remote")</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>окласявам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Премествам функция от програмния код в обектен клас</deftext>
+				<deftext>Изграждам проект с обектно-ориентиран код</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>пингвам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Изпълнявам в конзола командата ping</deftext>
+				<deftext>Обаждам се на някого</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>трейсвам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Изпълнявам в конзола командата tracert/traceroute</deftext>
+				<deftext>Проверявам произхода на нещо</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>дъмпвам</k>
+			<k>логвам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Записвам във файл или изписвам в софтуерна конзола обект/променлива</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>дебъгвам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Отстранявам грешки от програмен код</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>логвам (се)</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Влизам в система</deftext>
+			</def>
+		</ar>
+		<ar f="l">
 			<k>тестър</k>
 			<k>тестърче</k>
 			<def>
@@ -168,6 +618,25 @@
 					<abbr>същ.</abbr>
 				</gr>
 				<deftext>Служител, който се занимава с тестване на готовия софтуер</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>гений</k>
+			<k>генийче</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Програмист, който претендира, че е успял да разреши сложен софтуерен проблем</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>сикюрити</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Сигурност (от английското "security")</deftext>
 			</def>
 		</ar>
 	</lexicon>
