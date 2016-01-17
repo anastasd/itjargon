@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdxf SYSTEM "https://raw.github.com/soshial/xdxf_makedict/master/format_standard/xdxf_strict.dtd">
+<xdxf lang_from="BUL" lang_to="BUL" format="logical" revision="001pre">
+	<meta_info>
+		<title>Речник на българския IT жаргон</title>
+		<full_title>Речник на българския IT жаргон</full_title>
+		<description>Речник на жаргона, който се използва от българските IT специалисти в работна среда, социални мрежи, електронна комуникация и лични разговори.</description>
+		<abbreviations>
+			<abbr_def>
+				<abbr_k>същ.</abbr_k>
+				<abbr_v>съществително</abbr_v>
+			</abbr_def>
+			<abbr_def>
+				<abbr_k>прил.</abbr_k>
+				<abbr_v>прилагателно</abbr_v>
+			</abbr_def>
+			<abbr_def>
+				<abbr_k>гл.</abbr_k>
+				<abbr_v>глагол</abbr_v>
+			</abbr_def>
+		</abbreviations>
+		<file_ver>001</file_ver>
+		<creation_date>16-01-2016</creation_date>
+	</meta_info>
+	<lexicon>
+		<ar f="l">
+			<k>ПеЦе</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Персонален компютър</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>плюе</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Връща резултат. Използва се за функции</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>шаваскрипт</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Програмният език Javascript</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>яйчар(ка)</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>HR специалист(ка)</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>кюейка</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext><![CDATA[Служителка в отдела за въпроси о отговори (Q&A)]]></deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>добитък</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Персонала на IT фирмата</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>це</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Програмният език C</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>говедо</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Всеки, когото са хванали да свърши нещо</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>коментирам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Правя неактивен част от програмния код, като го ограждам с тагове коментар</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>разкоментирам</k>
+			<def>
+				<gr>
+					<abbr>гл.</abbr>
+				</gr>
+				<deftext>Правя активен програмен код, който е бил ограден с тагове за коментар</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>сорскод</k>
+			<k>сорс</k>
+			<k>кодец</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Програмен код</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>шефче</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Ръководител на екип</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>апач</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Apache HTTP Server</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>джуниър</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Младши програмист</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>синиър</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Старши програмист</deftext>
+			</def>
+		</ar>
+		<ar f="l">
+			<k>тестър</k>
+			<k>тестърче</k>
+			<def>
+				<gr>
+					<abbr>същ.</abbr>
+				</gr>
+				<deftext>Служител, който се занимава с тестване на готовия софтуер</deftext>
+			</def>
+		</ar>
+	</lexicon>
+</xdxf>
