@@ -1,642 +1,674 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xdxf SYSTEM "https://raw.github.com/soshial/xdxf_makedict/master/format_standard/xdxf_strict.dtd">
-<xdxf lang_from="BUL" lang_to="BUL" format="logical" revision="001pre">
+<xdxf lang_from="BUL" lang_to="BUL" format="logical">
 	<meta_info>
-		<title>Речник на българския IT жаргон</title>
-		<full_title>Речник на българския IT жаргон</full_title>
-		<description>Речник на жаргона, който се използва от българските IT специалисти в работна среда, социални мрежи, електронна комуникация и лични разговори.</description>
+		<title><![CDATA[Български IT жаргон]]></title>
+		<full_title><![CDATA[Речник на българския IT жаргон]]></full_title>
+		<description><![CDATA[Речник на жаргона, който използват българските IT специалисти в работа, социални мрежи и лични контакти]]></description>
 		<abbreviations>
 			<abbr_def>
-				<abbr_k>същ.</abbr_k>
-				<abbr_v>съществително</abbr_v>
+				<abbr_k><![CDATA[същ.]]></abbr_k>
+				<abbr_v><![CDATA[съществително]]></abbr_v>
 			</abbr_def>
 			<abbr_def>
-				<abbr_k>прил.</abbr_k>
-				<abbr_v>прилагателно</abbr_v>
+				<abbr_k><![CDATA[прил.]]></abbr_k>
+				<abbr_v><![CDATA[прилагателно]]></abbr_v>
 			</abbr_def>
 			<abbr_def>
-				<abbr_k>гл.</abbr_k>
-				<abbr_v>глагол</abbr_v>
+				<abbr_k><![CDATA[гл.]]></abbr_k>
+				<abbr_v><![CDATA[глагол]]></abbr_v>
 			</abbr_def>
 			<abbr_def>
-				<abbr_k>нар.</abbr_k>
-				<abbr_v>наречие</abbr_v>
+				<abbr_k><![CDATA[нар.]]></abbr_k>
+				<abbr_v><![CDATA[наречие]]></abbr_v>
 			</abbr_def>
 		</abbreviations>
-		<file_ver>001</file_ver>
-		<creation_date>16-01-2016</creation_date>
+		<file_ver><![CDATA[0.1]]></file_ver>
+		<creation_date><![CDATA[18-01-2016]]></creation_date>
 	</meta_info>
 	<lexicon>
-		<ar f="l">
-			<k>ПеЦе</k>
-			<k>комп</k>
-			<k>писи</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Персонален компютър</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>плюе</k>
-			<def>
-				<gr>
-					<abbr>гл.</abbr>
-				</gr>
-				<deftext>Връща резултат. Използва се за функции</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>шаваскрипт</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Програмният език Javascript</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>яйчар(ка)</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>HR специалист(ка)</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>кюейка</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext><![CDATA[Служителка в отдела за въпроси о отговори (Q&A)]]></deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>добитък</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Персонал на IT фирмат</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>це</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Програмният език C</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>говедо</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Всеки, когото са хванали да свърши нещо</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>коментирам</k>
-			<k>коментвам</k>
-			<def>
-				<gr>
-					<abbr>гл.</abbr>
-				</gr>
-				<deftext>Правя неактивен част от програмния код, като го ограждам с тагове за коментар</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>разкоментирам</k>
-			<k>разкоментвам</k>
-			<def>
-				<gr>
-					<abbr>гл.</abbr>
-				</gr>
-				<deftext>Правя активен програмен код, който е бил ограден с тагове за коментар</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>сорскод</k>
-			<k>сорс код</k>
-			<k>сорс-код</k>
-			<k>сорс</k>
-			<k>кодец</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Програмен код</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>шефче</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Ръководител на екип</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>апач</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Apache HTTP Server</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>джуниър</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Младши програмист</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>синиър</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Старши програмист</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>джавар</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Програмист, който използва предимно програмният език Java</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>икспандвам</k>
-			<k>експандвам</k>
-			<def>
-				<gr>
-					<abbr>гл.</abbr>
-				</gr>
-				<deftext>Разширявам (от английски "expand")</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>портвам</k>
-			<def>
-				<gr>
-					<abbr>гл.</abbr>
-				</gr>
-				<deftext>Правя възможно за ползване от нещо (от английски "port")</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>рутирам</k>
-			<k>руутвам</k>
-			<def>
-				<gr>
-					<abbr>гл.</abbr>
-				</gr>
-				<deftext>Препращам (от английски "route")</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>комбо</k>
-			<k>комбобокс</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Падащо меню (от английски "combobox")</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>пропърти</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Свойство (от английски "property")</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>уебаджия</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Програмист, който се занимава предимно с правене на уеб сайтове и уеб прилогения</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>дотнетаджия</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Програмист, който използва предимно програмните езици, включени в Microsoft Visual Studio</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>аутпут</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Текст или символи, които са резултат от изпълнинето на софтуерна програма (от английски "output")</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>билд</k>
-			<def>
-				<gr>
-					<abbr>същ.</abbr>
-				</gr>
-				<deftext>Компилиран програмен код (от английски "build")</deftext>
-			</def>
-		</ar>
-		<ar f="l">
-			<k>джамци</k>
+		<ar>
 			<k><![CDATA[M$]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Microsoft Corporation</deftext>
+				<deftext><![CDATA[Microsoft Corporation]]></deftext>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>джамски</k>
+		<ar>
+			<k><![CDATA[айфон]]></k>
+			<k><![CDATA[ифон]]></k>
 			<def>
 				<gr>
-					<abbr>прил.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>на Microsoft Corporation</deftext>
+				<deftext><![CDATA[iPhone]]></deftext>
+				<ex><![CDATA[Следващия унреал като излезе за <mark>айфон</mark> тряа да направиме детмач - ше те смачкам!]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>джаварник</k>
-			<k>жаварник</k>
+		<ar>
+			<k><![CDATA[апач]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Отдел в IT фирма, където се използва основно програмният език Java</deftext>
+				<deftext><![CDATA[Apache HTTP Server]]></deftext>
+				<ex><![CDATA[В Уиндоус дори да направиш виртуален хост на <mark>Апач</mark> е мъка, а да му инсталираш сертификат е чудо.]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>съпорт</k>
+		<ar>
+			<k><![CDATA[аутпут]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>поддръжка (от английски "support")</deftext>
+				<deftext><![CDATA[Текст или символи, които са резултат от изпълнието на софтуерна програма (от английски "output")]]></deftext>
+				<ex><![CDATA[Та нали точно при ASP.NET MVC имаш пълен контрол върху <mark>аутпута</mark>?]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>ОС</k>
-			<k>ос</k>
+		<ar>
+			<k><![CDATA[БД]]></k>
+			<k><![CDATA[ДБ]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Операционна система</deftext>
+				<deftext><![CDATA[База с данни]]></deftext>
+				<ex><![CDATA[Предполагам, че пичовете още пишат на ФоксПро като за <mark>БД</mark> използват любимите на няколко поколения счетоводители dbf файлове. ]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>кюъри</k>
+		<ar>
+			<k><![CDATA[билд]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Заявка (от английски "query")</deftext>
-				<deftext>Заявка към релационна база данни</deftext>
+				<deftext><![CDATA[Компилиран програмен код (от английски "build")]]></deftext>
+				<ex><![CDATA[За 2К не може и калфа да намериш, дето поне няма да осере <mark>билда</mark>, ако и да не върши работа.]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>индексирам</k>
+		<ar>
+			<k><![CDATA[гений]]></k>
+			<k><![CDATA[генийче]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Добаям индекси към таблица в база с данни или към масив</deftext>
+				<deftext><![CDATA[Програмист, който претендира, че е успял да разреши сложен софтуерен проблем]]></deftext>
+				<ex><![CDATA[Ако детето ти има проблеми, тук може да го изпратиш в специализирано училище напълно безплатно, и го изкарват оттам <mark>генийче</mark> доказано.]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>крон работник</k>
+		<ar>
+			<k><![CDATA[говедо]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Служител с регулярно работно време (от английски "crontab")</deftext>
+				<deftext><![CDATA[Всеки, когото са хванали да свърши нещо]]></deftext>
+				<ex><![CDATA[И да не те ръчкат, пак на <mark>говедо</mark> се обаждаш, неспасяем си!]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>слуша</k>
+		<ar>
+			<k><![CDATA[дебъгвам]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[гл.]]></abbr>
 				</gr>
-				<deftext>Приема заявки. Използва се за сървърен софтуер (от английски "listen")</deftext>
+				<deftext><![CDATA[Отстранявам грешки от програмен код]]></deftext>
+				<ex><![CDATA[На мен половината ми работа е да <mark>дебъгвам</mark>, защото програмата или сайта ползват външни, неконтролируеми услуги или работя върху база данни, която някой идиот е създал.]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>мусцл</k>
-			<k>делфин</k>
-			<k>делфинче</k>
+		<ar>
+			<k><![CDATA[джавар]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>MySQL Database Server</deftext>
+				<deftext><![CDATA[Програмист, който използва предимно програмният език Java]]></deftext>
+				<ex><![CDATA[Аха, ясно...започвам да схващам...не си <mark>джавар</mark>...не си програмист...не си и QA...Ми къф си ти тогава бе?]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>парсвам</k>
+		<ar>
+			<k><![CDATA[джаварник]]></k>
+			<k><![CDATA[жаварник]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Разчитам. Превръщам в друг формат</deftext>
+				<deftext><![CDATA[Отдел в IT фирма, където се използва основно програмният език Java]]></deftext>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>рейзвам</k>
+		<ar>
+			<k><![CDATA[джамски]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[прил.]]></abbr>
 				</gr>
-				<deftext>Извиквам. Използва се за иницииране на грешка или програмно изключение (от английски "raise")</deftext>
+				<deftext><![CDATA[на Microsoft Corporation]]></deftext>
+				<ex><![CDATA[Портването на <mark>джамски</mark> неща за линукс (и наопъки) е тривиално. ]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>ирейзвам</k>
-			<k>дилийтвам</k>
+		<ar>
+			<k><![CDATA[джамци]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Изтривам (от английски "erase", "delete")</deftext>
+				<deftext><![CDATA[Microsoft Corporation]]></deftext>
+				<ex><![CDATA[Тва не му ли трябваше <mark>джамци</mark> 8.1 ?]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>циклене</k>
+		<ar>
+			<k><![CDATA[джуниър]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Изпълнение на програмен цикъл</deftext>
+				<deftext><![CDATA[Младши програмист]]></deftext>
+				<ex><![CDATA[Ти виждал ли си <mark>джуниър</mark> в длъжностна харакретистика, че аз нещо не съм. Виждал съм как повишават в синиър без да пипнат заплатата 1 стинка. Да им ... ]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>БД</k>
-			<k>ДБ</k>
+		<ar>
+			<k><![CDATA[добитък]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>База с данни</deftext>
+				<deftext><![CDATA[Персонал на IT фирма]]></deftext>
+				<ex><![CDATA[То за глава <mark>добитък</mark> не е ли 2 заплати бонуса за такива като теб? (въпрос към HR специалист)]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>инклудвам</k>
+		<ar>
+			<k><![CDATA[дотнетаджия]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Вмъквам (от английски "include")</deftext>
+				<deftext><![CDATA[Програмист, който използва предимно програмните езици, включени в Microsoft Visual Studio]]></deftext>
+				<ex><![CDATA[Абе, някой <mark>дотнетаджия</mark> ползва ли смешката, наречена Арт оф Тест, дето май Тилириците си продадоха половината гъз да ги купят?]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>ризолва</k>
+		<ar>
+			<k><![CDATA[дъмпвам]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[гл.]]></abbr>
 				</gr>
-				<deftext>Открива. Използва се за DNS сървър или domain name (от английски "resolve")</deftext>
+				<deftext><![CDATA[Записвам във файл или изписвам в софтуерна конзола обект/променлива]]></deftext>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>скейлвам</k>
-			<k>скалирам</k>
+		<ar>
+			<k><![CDATA[едитвам]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[гл.]]></abbr>
 				</gr>
-				<deftext>Уголемявам. Развивам. (от английски "scale")</deftext>
+				<deftext><![CDATA[Редактирам (от английски "edit")]]></deftext>
+				<ex><![CDATA[... , и ше преебем разни типове като VLC така че горе дясно да не излиза трей-икона а гадния лузър ше трябва да бърка в гъза на десктопа и да <mark>едитва</mark> конф файлове и да си сваля утилки за тва, хаха! дееби тъпаците, подай джойнта *пфф-пффф кх-кхъ-кхъ*]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>ябълки(те)</k>
-			<k>ябълка(та)</k>
-			<k>епълджийница</k>
+		<ar>
+			<k><![CDATA[епълджийница]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Американската софтуерна компания Apple Inc.</deftext>
+				<deftext><![CDATA[Американската софтуерна компания Apple Inc.]]></deftext>
+				<ex><![CDATA[Имам акции на <mark>епълджийницата</mark> да - макбук про, два айпада и айфон, както и книги за програмиране и ползване на софта им за мюзик продукция.]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>ябълско</k>
+		<ar>
+			<k><![CDATA[икспандвам]]></k>
+			<k><![CDATA[експандвам]]></k>
 			<def>
 				<gr>
-					<abbr>прил.</abbr>
+					<abbr><![CDATA[гл.]]></abbr>
 				</gr>
-				<deftext>Произведено от американската софтуерна компания Apple Inc.</deftext>
+				<deftext><![CDATA[Разширявам (от английски "expand")]]></deftext>
+				<ex><![CDATA[Аз си самозадоволявам духовните нужди и си <mark>експандвам</mark> духовните хоризонти, правейки първи плахи стъпки в жанра поп шлагер с хор на три гласа.]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>рам</k>
-			<k>РАМ</k>
-			<k>памет</k>
+		<ar>
+			<k><![CDATA[индексирам]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[гл.]]></abbr>
 				</gr>
-				<deftext>Random-access memory (RAM)</deftext>
+				<deftext><![CDATA[Добаям индекси към таблица в база с данни или към масив]]></deftext>
+				<ex><![CDATA[Стига с това SEO де. То верно Гугуля <mark>индексира</mark> яко клуба, ама се оливаш.]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>айфон</k>
-			<k>ифон</k>
+		<ar>
+			<k><![CDATA[инклудвам]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[гл.]]></abbr>
 				</gr>
-				<deftext>iPhone</deftext>
+				<deftext><![CDATA[Вмъквам (от английски "include")]]></deftext>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>оффлайн</k>
-			<k>офлайн</k>
+		<ar>
+			<k><![CDATA[ирейзвам]]></k>
 			<def>
 				<gr>
-					<abbr>прил.</abbr>
+					<abbr><![CDATA[гл.]]></abbr>
 				</gr>
-				<deftext>Софтуерно приложение, което работи без интернет достъп</deftext>
+				<deftext><![CDATA[Изтривам (от английски "erase")]]></deftext>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>оффлайн</k>
-			<k>офлайн</k>
+		<ar>
+			<k><![CDATA[комбо]]></k>
+			<k><![CDATA[комбобокс]]></k>
+			<k><![CDATA[комбо-бокс]]></k>
 			<def>
 				<gr>
-					<abbr>нар.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Без интернет достъп</deftext>
+				<deftext><![CDATA[Падащо меню (от английски "combobox")]]></deftext>
+				<ex><![CDATA[Подаваш IStream на IBrowser2 и - voila - <mark>комбо-бокса</mark> ти е запълнен. Ура!]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>софтуер</k>
-			<k>софт</k>
+		<ar>
+			<k><![CDATA[коментирам]]></k>
+			<k><![CDATA[коментвам]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[гл.]]></abbr>
 				</gr>
-				<deftext>Програмен продукт</deftext>
+				<deftext><![CDATA[Правя неактивен част от програмния код, като го ограждам с тагове за коментар]]></deftext>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>облак</k>
+		<ar>
+			<k><![CDATA[крон работник]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Сървър за изчисления в облак</deftext>
+				<deftext><![CDATA[Служител с регулярно работно време (от английски "crontab")]]></deftext>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>флаш</k>
+		<ar>
+			<k><![CDATA[кюейка]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Adobe Flash</deftext>
-				<deftext>Adobe Flash Player</deftext>
+				<deftext><![CDATA[Служителка в отдела за въпроси о отговори (Q&A)]]></deftext>
+				<ex><![CDATA[Ах майкати да еба проста да еба Прост си като <mark>кюейка</mark> от ментормейта]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>цъмес</k>
+		<ar>
+			<k><![CDATA[кюъри]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Система за управление на съдържание (Content Management System - CMS)</deftext>
+				<deftext><![CDATA[Заявка (от английски "query")]]></deftext>
+				<ex><![CDATA[И най-големите майстори, които съм виждал, оставят тези неща само на администратор (с тайната надежда, че така ще се ползват рядко, защото едно <mark>кюъри</mark> за оборотка от 200-300к записа може да спре тока на ДБто) ]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>едитвам</k>
+		<ar>
+			<k><![CDATA[логвам (се)]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[гл.]]></abbr>
 				</gr>
-				<deftext>Редактирам (от английското "edit")</deftext>
+				<deftext><![CDATA[Влизам в система]]></deftext>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>римуут</k>
-			<k>римут</k>
+		<ar>
+			<k><![CDATA[мусцл]]></k>
 			<def>
 				<gr>
-					<abbr>нар.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>С отдалечен достъп (от английското "remote")</deftext>
+				<deftext><![CDATA[MySQL Database Server]]></deftext>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>окласявам</k>
+		<ar>
+			<k><![CDATA[облак]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Премествам функция от програмния код в обектен клас</deftext>
-				<deftext>Изграждам проект с обектно-ориентиран код</deftext>
+				<deftext><![CDATA[Сървър за изчисления в облак]]></deftext>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>пингвам</k>
+		<ar>
+			<k><![CDATA[окласявам]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[гл.]]></abbr>
 				</gr>
-				<deftext>Изпълнявам в конзола командата ping</deftext>
-				<deftext>Обаждам се на някого</deftext>
+				<deftext><![CDATA[Премествам функция от програмния код в обектен клас]]></deftext>
+				<ex><![CDATA[Ти да не си джавар? Само джавар ще <mark>окласи</mark> две функции на кръст.]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>трейсвам</k>
+		<ar>
+			<k><![CDATA[ОС]]></k>
+			<k><![CDATA[ос]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Изпълнявам в конзола командата tracert/traceroute</deftext>
-				<deftext>Проверявам произхода на нещо</deftext>
+				<deftext><![CDATA[Операционна система]]></deftext>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>дъмпвам</k>
-			<k>логвам</k>
+		<ar>
+			<k><![CDATA[оффлайн]]></k>
+			<k><![CDATA[офлайн]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[прил.]]></abbr>
 				</gr>
-				<deftext>Записвам във файл или изписвам в софтуерна конзола обект/променлива</deftext>
+				<deftext><![CDATA[Софтуерно приложение, което работи без интернет достъп]]></deftext>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>дебъгвам</k>
+		<ar>
+			<k><![CDATA[оффлайн]]></k>
+			<k><![CDATA[офлайн]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[нар.]]></abbr>
 				</gr>
-				<deftext>Отстранявам грешки от програмен код</deftext>
+				<deftext><![CDATA[Без интернет достъп]]></deftext>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>логвам (се)</k>
+		<ar>
+			<k><![CDATA[парсвам]]></k>
 			<def>
 				<gr>
-					<abbr>гл.</abbr>
+					<abbr><![CDATA[гл.]]></abbr>
 				</gr>
-				<deftext>Влизам в система</deftext>
+				<deftext><![CDATA[Разчитам. Превръщам в друг формат]]></deftext>
+				<ex><![CDATA[Отделно, за да <mark>парсна</mark> json текст трябваше да дърпам някакви nuget пакети, които ядат рам като ламя и не дикодват фрийстайл стрингове...]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>тестър</k>
-			<k>тестърче</k>
+		<ar>
+			<k><![CDATA[ПеЦе]]></k>
+			<k><![CDATA[комп]]></k>
+			<k><![CDATA[писи]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[същ.]]></abbr>
 				</gr>
-				<deftext>Служител, който се занимава с тестване на готовия софтуер</deftext>
+				<deftext><![CDATA[Персонален компютър]]></deftext>
+				<ex><![CDATA[...тъй че за сега убиеца на виндовс още не се вижда. а тия чекии по телефоните и как след 20 години сичко ще е мобайл и <mark>пецето</mark> ше умре - да ме фанат за кура.]]></ex>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>гений</k>
-			<k>генийче</k>
+		<ar>
+			<k><![CDATA[пингвам]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[гл.]]></abbr>
 				</gr>
-				<deftext>Програмист, който претендира, че е успял да разреши сложен софтуерен проблем</deftext>
+				<deftext><![CDATA[Изпълнявам в конзола командата ping]]></deftext>
 			</def>
 		</ar>
-		<ar f="l">
-			<k>сикюрити</k>
+		<ar>
+			<k><![CDATA[плюе]]></k>
 			<def>
 				<gr>
-					<abbr>същ.</abbr>
+					<abbr><![CDATA[гл.]]></abbr>
 				</gr>
-				<deftext>Сигурност (от английското "security")</deftext>
+				<deftext><![CDATA[Връща резултат. Използва се за функции]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[портвам]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[гл.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Правя възможно за ползване от нещо (от английски "port")]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[пропърти]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Свойство (от английски "property")]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[разкоментирам]]></k>
+			<k><![CDATA[разкоментвам]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[гл.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Правя активен програмен код, който е бил ограден с тагове за коментар]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[рам]]></k>
+			<k><![CDATA[РАМ]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Random-access memory (RAM)]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[рейзвам]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[гл.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Извиквам. Използва се за иницииране на грешка или програмно изключение (от английски "raise")]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[ризолва]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[гл.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Открива. Използва се за DNS сървър или domain name (от английски "resolve")]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[римуут]]></k>
+			<k><![CDATA[римут]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[нар.]]></abbr>
+				</gr>
+				<deftext><![CDATA[С отдалечен достъп (от английското "remote")]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[рутирам]]></k>
+			<k><![CDATA[руутвам]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[гл.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Препращам (от английски "route")]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[сикюрити]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Сигурност (от английското "security")]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[синиър]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Старши програмист]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[скейлвам]]></k>
+			<k><![CDATA[скалирам]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[гл.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Уголемявам. Развивам. (от английски "scale")]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[слуша]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[гл.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Приема заявки. Използва се за сървърен софтуер (от английски "listen")]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[сорскод]]></k>
+			<k><![CDATA[сорс код]]></k>
+			<k><![CDATA[сорс-код]]></k>
+			<k><![CDATA[сорс]]></k>
+			<k><![CDATA[кодец]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Програмен код]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[софтуер]]></k>
+			<k><![CDATA[софт]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Програмен продукт]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[съпорт]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[поддръжка (от английски "support")]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[тестър]]></k>
+			<k><![CDATA[тестърче]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Служител, който се занимава с тестване на готовия софтуер]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[трейсвам]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[гл.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Изпълнявам в конзола командата tracert/traceroute]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[уебаджия]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Програмист, който се занимава предимно с правене на уеб сайтове и уеб прилогения]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[флаш]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Adobe Flash]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[це]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Програмният език C]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[циклене]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Изпълнение на програмен цикъл]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[цъмес]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Система за управление на съдържание (Content Management System - CMS)]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[шаваскрипт]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Програмният език Javascript]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[шефче]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Ръководител на екип]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[ябълки(те)]]></k>
+			<k><![CDATA[ябълка(та)]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Американската софтуерна компания Apple Inc.]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[ябълско]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[прил.]]></abbr>
+				</gr>
+				<deftext><![CDATA[Произведено от американската софтуерна компания Apple Inc.]]></deftext>
+			</def>
+		</ar>
+		<ar>
+			<k><![CDATA[яйчар(ка)]]></k>
+			<def>
+				<gr>
+					<abbr><![CDATA[същ.]]></abbr>
+				</gr>
+				<deftext><![CDATA[HR специалист(ка)]]></deftext>
+				<ex><![CDATA[Айде сега пак почна с трибуквените съкращения като <mark>яйчарките</mark>. Абе ти <mark>яйчарка</mark> ли си верно?]]></ex>
 			</def>
 		</ar>
 	</lexicon>
