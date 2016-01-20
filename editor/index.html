@@ -10,16 +10,22 @@
 <body style="background:#eee;">
 	<div class="container">
 		<h1>Редактор на речника на IT жаргона</h1>
+		<p>Редактира за XDXF речникови файлове и експортира съдържанието им в HTML или CSV формат.</p>
+		<p class="well">
+			<label>Указания</label>
+			<br />
+			<span class="text-danger">&lt;mark&gt;блах&lt;/mark&gt;</span> - хайлайтва дума.
+			<br />
+			<span class="text-danger">&lt;kref idref="блах1"&gt;блах2&lt;kref&gt;</span> - указва връзка към друга дума
+		</p>
 		<br /><br />
-		
-		<div class="row">
-			<div class="col-md-12">
-				<input type="file" id="fleDict" class="btn btn-default" title="Изберете XDXF файл" onchange="DictEditor.getDict('fleDict');" />
-			</div>
-		</div>
-		<br /><hr /><br />
-		
 		<form class="form-horizontal">
+			<div class="form-group">
+				<label class="col-sm-2 control-label" for="fleDict">XDXF речник</label>
+				<div class="col-md-10">
+					<input type="file" id="fleDict" class="btn btn-default" title="Изберете XDXF файл" onchange="DictEditor.getDict('fleDict');" />
+				</div>
+			</div>
 			<div class="form-group">
 				<label class="col-sm-2 control-label" for="txtTitle">Заглавие</label>
 				<div class="col-md-10">
@@ -43,14 +49,14 @@
 				<div class="col-md-4">
 					<input type="text" id="txtVersion" class="form-control" />
 				</div>
-				<label class="col-sm-2 control-label" for="txtCreation">Създадена</label>
+				<label class="col-sm-2 control-label" for="txtCreation">Създаден на</label>
 				<div class="col-md-4">
 					<input type="text" id="txtCreation" class="form-control" placeholder="DD-MM-YYYY" />
 				</div>
 			</div>
 		</form>
 		<br /><hr /><br />
-		
+
 		<table id="tblDict" class="table" summary="Dictionary entries">
 			<thead>
 				<th>#</th>
@@ -60,13 +66,27 @@
 				<th>Пример</th>
 				<th></th>
 			</thead>
-			<tbody>
-				
-			</tbody>
+			<tbody></tbody>
 		</table>
 		<button class="btn btn-primary" onclick="DictEditor.addRow();">Добави</button>
-		&nbsp;<button class="btn btn-info" onclick="DictEditor.save();">Запази</button>
-		&nbsp;<button class="btn btn-success" onclick="DictEditor.exportHTML();">Експортирай в HTML</button>
+		<br /><br /><br /><br />
+		<div class="row">
+			<div class="col-md-8">
+				<button class="btn btn-success" onclick="DictEditor.save();">Запази</button>
+			</div>
+			<div class="col-md-2">
+				<select id="slctExport" class="form-control pull-right">
+					<option value="full">Пълен формат</option>
+					<option value="short">Съкратен формат</option>
+					<option value="csv">CSV файл</option>
+				</select>
+			</div>
+			<div class="col-md-2">
+				<button type="button" class="btn btn-info" onclick="DictEditor.exportFile()">Експортирай</button>
+			</div>
+		</div>
+		<br /><br />
+		<p class="text-muted pull-right">Създаден от <a href="http://www.digitalvoivode.com">Digital Voivode</a></p>
 	</div>
 </body>
 </html

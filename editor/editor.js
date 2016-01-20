@@ -222,7 +222,21 @@ var DictEditor = {
 		download(xmlSrc, "dictionary.xdxf", "text/xml");
 	},
 	
-	exportHTML: function () {
+	exportFile: function () {
+		switch (document.getElementById("slctExport").value) {
+			case "full":
+				DictEditor.exportFull();
+				break;
+			case "short":
+				DictEditor.exportShort();
+				break;
+			case "csv":
+				DictEditor.exportCSV();
+				break;
+		}
+	},
+	
+	exportFull: function () {
 		var rows = document.querySelectorAll("#tblDict>tbody>tr");
 		var htmlSrc = "";
 		var title =  document.getElementById("txtTitle").value;
@@ -261,21 +275,20 @@ var DictEditor = {
 		htmlSrc += "<body>";
 		
 		htmlSrc += "<div class=\"container\">";
-		htmlSrc += "<h1>" + fullTitle + "</h1>";
+		htmlSrc += "<h1>" + fullTitle + "&nbsp;&nbsp;&nbsp;<small>(ver. " + version + ", " + creation + ")</small></h1>";
 		htmlSrc += "<p>" + description + "</p><hr />";
 		
 		for (var i = 0;i < entries.length;i++) {
-			htmlSrc += "<h3><code>" + entries[i].word + "</code>&nbsp;&nbsp;&nbsp;<small>[" + entries[i].part + "]</small></h3>";
+			htmlSrc += "<h3 id=\"" + entries[i].word + "\"><code>" + entries[i].word + "</code>&nbsp;&nbsp;&nbsp;<small>[" + entries[i].part + "]</small></h3>";
 			if (entries[i].words.length > 1) {
-				htmlSrc += "<em class=\"text-muted\">Среща се и като</em> ";
-				for (var j = 1;j < entries[i].words.length;j++) {
-					htmlSrc += "<code>" + entries[i].words[j] + "</code>&nbsp;";
-				}
+				entries[i].words.splice(0, 1);
+				htmlSrc += "<em class=\"text-muted\">Среща се и като</em>&nbsp;";
+				htmlSrc += "<code>" + entries[i].words.join("</code>&nbsp;<code>") + "</code>";
 				htmlSrc += "<br />";
 			}
-			htmlSrc += "<br /><p class=\"lead\">" + entries[i].definition + "</p>";
+			htmlSrc += "<br /><p class=\"lead\">" + entries[i].definition.replace(/\<kref idref\=\"(.+)\"\>(.+)\<\/kref\>/, "<a href=\"#$1\">$2</a>") + "</p>";
 			if (entries[i].example != "") {
-				htmlSrc += "<p><em class=\"text-muted\">Пример в изречение:</em>&nbsp;&nbsp;\"" + entries[i].example + "\"</p>";
+				htmlSrc += "<p><em class=\"text-muted\">Пример в изречение:</em>&nbsp;&nbsp;\"" + entries[i].example.replace(/\<kref idref\=\"(.+)\"\>(.+)\<\/kref\>/, "<a href=\"#$1\">$2</a>") + "\"</p>";
 			}			
 			htmlSrc += "<hr />";
 		}
@@ -285,7 +298,149 @@ var DictEditor = {
 		htmlSrc += "</body>";
 		htmlSrc += "</html>";
 		
-		download(htmlSrc, "dictionary.html", "text/html");
+		download(htmlSrc, "dictionary_full.html", "text/html");
+	},
+	
+	exportShort: function () {
+		var rows = document.querySelectorAll("#tblDict>tbody>tr");
+		var htmlSrc = "";
+		var title =  document.getElementById("txtTitle").value;
+		var fullTitle =  document.getElementById("txtFullTitle").value;
+		var description =  document.getElementById("areaDescription").value;
+		var version =  document.getElementById("txtVersion").value;
+		var creation =  document.getElementById("txtCreation").value;
+		
+		var entries = [];
+		
+		for (i = 0;i < rows.length;i++) {
+			var wordObj = rows[i].children[1].children[0].value.split("\n");
+			var words = [];
+			for (var j = 0;j < wordObj.length;j++) {
+				if (wordObj[j] != "") {
+					words.push(wordObj[j]);
+				}
+			}
+			var partSpeech = rows[i].children[2].children[0].value;
+			var definition = rows[i].children[3].children[0].value;
+			var example = rows[i].children[4].children[0].value;
+			
+			entries.push({
+				"word": words[0],
+				"words": words,
+				"part": partSpeech,
+				"definition": definition,
+				"example": example
+			});
+		}
+		entries.sort(keysrt("word"));
+		
+		htmlSrc += "<!DOCTYPE html>";
+		htmlSrc += "<html>";
+		htmlSrc += "<head><title>" + title + "</title><meta charset=\"utf8\" /><link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css\"></head>";
+		htmlSrc += "<body>";
+		
+		htmlSrc += "<div class=\"container\">";
+		htmlSrc += "<h1>" + fullTitle + "&nbsp;&nbsp;&nbsp;<small>(ver. " + version + ", " + creation + ")</small></h1>";
+		htmlSrc += "<p>" + description + "</p><hr />";
+		for (var i = 0;i < Math.ceil(entries.length / 3);i++) {
+			htmlSrc += "<div class=\"row\">";
+			
+			htmlSrc += "<div class=\"col-md-4\">";
+			htmlSrc += "<h4 id=\"" + entries[i * 3].word + "\"><code>" + entries[i * 3].word + "</code>";
+			if (entries[i * 3].words.length > 1) {
+				entries[i * 3].words.splice(0, 1);
+				htmlSrc += "&nbsp;<small>(" + entries[i * 3].words.join(", ") + ")</small></h4>";
+			} else {
+				htmlSrc += "</h4>";
+			}
+			htmlSrc += "<p><em>" + entries[i * 3].part + "</em></p>";
+			htmlSrc += "<p>" + entries[i * 3].definition.replace(/\<kref idref\=\"(.+)\"\>(.+)\<\/kref\>/, "<a href=\"#$1\">$2</a>") + "</p>";
+			htmlSrc += "</div>";
+			
+			if (entries[i * 3 + 1]) {
+				htmlSrc += "<div class=\"col-md-4\">";
+				htmlSrc += "<h4 id=\"" + entries[i * 3 + 1].word + "\"><code>" + entries[i * 3 + 1].word + "</code>";
+				if (entries[i * 3 + 1].words.length > 1) {
+					entries[i * 3 + 1].words.splice(0, 1);
+					htmlSrc += "&nbsp;<small>(" + entries[i * 3 + 1].words.join(", ") + ")</small></h4>";
+				} else {
+					htmlSrc += "</h4>";
+				}
+				htmlSrc += "<p><em>" + entries[i * 3 + 1].part + "</em></p>";
+				htmlSrc += "<p>" + entries[i * 3 + 1].definition.replace(/\<kref idref\=\"(.+)\"\>(.+)\<\/kref\>/, "<a href=\"#$1\">$2</a>") + "</p>";
+				htmlSrc += "</div>";
+			}
+			
+			if (entries[i * 3 + 2]) {
+				htmlSrc += "<div class=\"col-md-4\">";
+				htmlSrc += "<h4 id=\"" + entries[i * 3 + 2].word + "\"><code>" + entries[i * 3 + 2].word + "</code>";
+				if (entries[i * 3 + 2].words.length > 1) {
+					entries[i * 3 + 2].words.splice(0, 1);
+					htmlSrc += "&nbsp;<small>(" + entries[i * 3 + 2].words.join(", ") + ")</small></h4>";
+				} else {
+					htmlSrc += "</h4>";
+				}
+				htmlSrc += "<p><em>" + entries[i * 3 + 2].part + "</em></p>";
+				htmlSrc += "<p>" + entries[i * 3 + 2].definition.replace(/\<kref idref\=\"(.+)\"\>(.+)\<\/kref\>/, "<a href=\"#$1\">$2</a>") + "</p>";
+				htmlSrc += "</div>";
+			}
+			
+			htmlSrc += "</div>";
+			htmlSrc += "<hr />";
+		}
+		
+		htmlSrc += "</body>";
+		htmlSrc += "</html>";
+		
+		download(htmlSrc, "dictionary_short.html", "text/html");
+	},
+	
+	exportCSV: function () {
+		var rows = document.querySelectorAll("#tblDict>tbody>tr");
+		var csvSrc = "";
+		var title =  document.getElementById("txtTitle").value;
+		var fullTitle =  document.getElementById("txtFullTitle").value;
+		var description =  document.getElementById("areaDescription").value;
+		var version =  document.getElementById("txtVersion").value;
+		var creation =  document.getElementById("txtCreation").value;
+		
+		var entries = [];
+		
+		for (i = 0;i < rows.length;i++) {
+			var wordObj = rows[i].children[1].children[0].value.split("\n");
+			var words = [];
+			for (var j = 0;j < wordObj.length;j++) {
+				if (wordObj[j] != "") {
+					words.push(wordObj[j]);
+				}
+			}
+			var partSpeech = rows[i].children[2].children[0].value;
+			var definition = rows[i].children[3].children[0].value;
+			var example = rows[i].children[4].children[0].value;
+			
+			entries.push({
+				"word": words[0],
+				"words": words,
+				"part": partSpeech,
+				"definition": definition,
+				"example": example
+			});
+		}
+		entries.sort(keysrt("word"));
+		
+		for (var i = 0;i < entries.length;i++) {
+			csvSrc += "\"" + entries[i].word.replace(/\"/g, "\\\"") + "\",";
+			if (entries[i].words.length > 1) {
+				entries[i].words.splice(0, 1);
+				csvSrc += "\"" + entries[i].words.join(", ").replace(/\"/g, "\\\"") + "\",";
+			} else {
+				csvSrc += "\"\",";
+			}
+			csvSrc += "\"" + entries[i].definition.replace(/\"/g, "\\\"") + "\",";
+			csvSrc += "\"" + entries[i].example.replace(/\"/g, "\\\"") + "\"\n";
+		}
+		
+		download(csvSrc, "dictionary.csv", "text/csv");
 	}
 }
 
